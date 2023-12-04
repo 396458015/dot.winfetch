@@ -7,7 +7,11 @@
 # $ascii = $true
 
 # Set the version of Windows to derive the logo from.
-# $logo = "Windows 10"
+$logo = "Windows XP"
+# Windows 11
+# Windows 10; Windows 8.1; Windows 8
+# Windows 7; Windows Vista; Windows XP
+# Microsoft
 
 # Specify width for image/logo
 # $imgwidth = 24
@@ -49,7 +53,7 @@
 # Configure which disks are shown
 # $ShowDisks = @("C:", "D:")
 # Show all available disks
-# $ShowDisks = @("*")
+$ShowDisks = @("*")
 
 # Configure which package managers are shown
 # disabling unused ones will improve speed
@@ -72,8 +76,8 @@
 # 'textbar' is for text + bar.
 # 'bartext' is for bar + text.
 # $cpustyle = 'bar'
-# $memorystyle = 'textbar'
-# $diskstyle = 'bartext'
+$memorystyle = 'bartext'
+$diskstyle = 'bartext'
 # $batterystyle = 'bartext'
 
 
