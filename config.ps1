@@ -110,5 +110,5 @@ $diskstyle = 'bartext'
     # "local_ip"
     # "public_ip"
     "blank"
-    "colorbar"
+    # "colorbar"
 )
